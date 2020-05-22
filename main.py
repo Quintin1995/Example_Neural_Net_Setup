@@ -97,3 +97,5 @@ print("Test accuracy: {}\n".format(score[1]))
 #saving the model weights
 model.save_weights(p.full_path_of_weights)
 print("\nsaved model weights to: {}\n".format(p.full_path_of_weights))
+
+plot_history(history, p)

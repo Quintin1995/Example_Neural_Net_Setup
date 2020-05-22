@@ -3,7 +3,7 @@
 
 batch_size: 256
 num_classes: 10
-epochs: 2
+epochs: 10
 img_rows: 28
 img_cols: 28
 model_name: first_model   #string

@@ -27,6 +27,11 @@ class Parameters(object):
         self.filename_history       = self.model_name + "_history" + self.history_extension
         self.full_path_of_history   = os.path.join(self.model_path, self.filename_history)
 
+        #output path of .png
+        self.figure_extension      = ".png"                 #Extension for figure 
+        self.filename_figure       = self.model_name + "_results" + self.figure_extension
+        self.full_path_of_figure   = os.path.join(self.model_path, self.filename_figure)
+
 
     def make_model_dir(self):
         try:
