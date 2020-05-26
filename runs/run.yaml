@@ -1,9 +1,9 @@
 # settings.yaml file
 # This file contains all settings for a model run.
 
-batch_size: 256
+batch_size: 128
 num_classes: 10
-epochs: 10
+epochs: 5
 img_rows: 28
 img_cols: 28
 model_name: first_model   #string
